@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <script src="script.js" defer></script>
+    <title>cv abeille à imprimer</title>
+   <style>
+       
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: "Public Sans", sans-serif;
+        background-color: #fff;
+        margin: 0;
+        padding: 0;
+    }
+
+    i {
+        color: #574424;
+        font-size: 1.5em;
+    }
+
+    hr {
+        border: 1px solid #574424;
+        width: 100%;
+    }
+
+    .cv-container {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        max-width: 900px;
+        background-color: #fcefdc;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        margin: 50px auto;
+    }
+
+    .cv-header {
+        display: flex;
+        justify-content: flex-start;
+        gap: 50px;
+        align-items: center;
+        padding: 20px;
+        background-color: #f8e9d2;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        flex-wrap: wrap;
+    }
+
+    .cv-header img {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        margin-right: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .cv-title {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        color: #2c211b;
+    }
+
+    .identite {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .identite h1::first-letter {
+        font-size: 150%;
+        color: #574424;
+    }
+
+    .cv-job {
+        font-size: 1.5em;
+        font-weight: 700;
+    }
+
+    .cv-main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cv-left, .cv-right {
+        padding: 20px;
+    }
+
+    .cv-left {
+        background-color: #d9c7b9;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+    .cv-left h2::first-letter {
+        color: #574424;
+        font-size: 150%;
+    }
+
+    .cv-left h2 {
+        color: #2c211b;
+        margin-top: 20px;
+    }
+
+    .adresse, .phone, .mail, .competences, .diplomes {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+
+    .competences ul {
+        list-style: square;
+        list-style-position: inside;
+    }
+
+    .competences li, .diplomes p {
+        padding: 5px;
+    }
+
+    .about, .experience {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px;
+        background-color: #f8e9d2;
+        border-radius: 10px;
+        margin: 20px;
+        color: #2c211b;
+    }
+
+    .experience h2::first-letter, .about h2::first-letter {
+        color: #574424;
+        font-size: 150%;
+    }
+
+    @media screen and (min-width: 768px) {
+        .cv-main {
+            flex-direction: row;
+        }
+
+        .cv-left {
+            width: 30%;
+        }
+
+        .cv-right {
+            width: 70%;
+        }
+    }
+
+    @media screen and (max-width: 767px) {
+        .cv-header {
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+
+        .cv-job {
+            padding-left: 0;
+        }
+    }
+</style>
+
+
+
+</head>
+<body>
+<div class="cv-container">
+
+    <div class="cv-header">
+            <img src="images/Gray and Orange Simple LinkedIn Profile Picture (1).png" alt="abeille" class="cv-image">
+            <div class="cv-title">
+                <div class="identite">
+                    <h1 class="cv-nom">DURAND</h1>
+                    <h1 class="cv-prenom">Marie-Joséphine</h1>
+                </div>
+               
+                <p class="cv-job">Développeur web</p>
+            </div>
+           
+    </div>
+    <div class="cv-main">
+                    <div class="cv-left">
+                        
+                    
+                    
+                        <div class="adresse">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <p> 1 rue des serveurs</p>
+                            <p> 75000 HOST</p>
+                        </div>
+                        <div class="phone">
+                            <i class="fas fa-phone"></i>
+                            06 06 06 06 06
+                        </div>
+
+                        <div class="mail">
+                            <i class="fas fa-envelope"></i>
+                            <p>monmail@chez.com</p>
+                        </div>
+                        <div class="separation">
+                            <hr>
+                        </div>
+                        <div class="competences">
+                            <h2>Compétences</h2>
+                            <ul>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>JavaScript</li>
+                                <li>PHP</li>
+                                <li>SQL</li>
+                                <li>Outils bureautiques</li>
+                                <li>Rigueur</li>
+                                <li>Autonomie</li>
+                                <li>Travail en équipe</li>
+                            </ul>
+                        </div>
+                        <div class="separation">
+                            <hr>
+                        </div>
+                        <div class="diplomes">
+                            <h2>Diplômes</h2>
+                            <div class="liste-diplomes">
+                                <p>2012 : Brevet des collèges</p>
+                                <p>2015 : Bac S</p>
+                                <p>2018 : Licence informatique</p>
+                                <p>2020 : Master informatique</p>
+                                
+
+                            </div>
+                         
+                        </div>
+                    
+                    </div>
+
+                    <div class="cv-right">
+
+                        <div class="about">
+                            <h2>À propos de moi</h2>
+                            <p>Je suis une personne motivée, rigoureuse et autonome. J'aime travailler en équipe et je suis toujours prête à apprendre de nouvelles choses. Je suis passionnée par l'informatique et je souhaite mettre mes compétences au service de votre entreprise.</p>
+
+                        </div>
+                        <div class="experience">
+                            <h2>Expérience professionnelle</h2>
+                            <div class="experience-detail">
+
+                                <h3>2023-2024 : Développeur web junior</h3>
+                                <p>Création de sites web pour des clients</p>
+                                <p>Travail en équipe</p>
+                                <p>Utilisation de différents langages de programmation</p>
+                            </div>
+                             <div class="experience-detail">
+
+                                <h3>2022-2023 : Développeur web junior</h3>
+                                <p>Création de sites web pour des clients</p>
+                                <p>Travail en équipe</p>
+                                <p>Utilisation de différents langages de programmation</p>
+                             </div>
+
+                            <div class="experience-detail">
+
+                                <h3>2021-2022 : Développeur web junior</h3>
+                                <p>Création de sites web pour des clients</p>
+                                <p>Travail en équipe</p>
+                                <p>Utilisation de différents langages de programmation</p>
+                            </div>
+                            <div class="experience-detail">
+                                <h3>2020-2021 : Développeur web junior</h3>
+                                <p>Création de sites web pour des clients</p>
+                                <p>Travail en équipe</p>
+                                <p>Utilisation de différents langages de programmation</p>
+                            </div>
+                            <div class="experience-detail">
+                                <h3>2018-2020 : Stage en entreprise</h3>
+                                <p>Création de logiciels pour l'entreprise</p>
+                                <p>Travail en autonomie</p>
+                                <p>Utilisation de différents outils informatiques</p>
+                            </div>
+
+
+
+
+
+
+                        </div>
+
+
+                    </div>
+    </div>
+
+
+    
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+    
+</body>
+</html>
