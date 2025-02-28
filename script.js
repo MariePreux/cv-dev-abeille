@@ -99,3 +99,15 @@ form.addEventListener('submit', (e) => {
     form.reset();
     alert('Votre message a bien été envoyé');
 });
+/impression cv//
+
+const printButton = document.getElementById('btn-cv');
+
+function printCV() {
+    alert('Le CV va être imprimé');
+    const printWindow = window.open('cv.html', '_blank');
+    printWindow.onload = function() {
+        printWindow.print();
+    };
+}
+printButton.addEventListener('click', printCV);
