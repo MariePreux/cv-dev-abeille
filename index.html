@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Modern Website</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+<script src="script.js" defer></script>
+
+</head>
+<body>
+  <div class="abeille">&#x1f41d;</div>
+  <!-- Navigation Bar -->
+  <header class="navbar">
+    <div class="container">
+   
+      <nav id="nav-normal">
+        <ul class="nav-links">
+          <li><a href="#hero">Accueil</a></li>
+          <li><a href="#about-content">À propos</a></li>
+          <li><a href="#skills">Mes compétences</a></li>
+          <li><a href="#projets">Mes projets</a></li>
+          <li><a href="#certifications">Mes diplômes</a></li>
+          <li><a href="#experiences">Mes expériences</a></li>
+          <li><a href="#contact-form">Me contacter</a></li>
+        </ul>
+      </nav>
+      <nav id="nav-mobile">
+        <ul class="nav-links" id="nav-links-mobile">
+        <li><a  id="closebtn" >&times;</a></li>
+        <li><a href="#hero">Accueil</a></li>
+        <li><a href="#about-content">À propos</a></li>
+        <li><a href="#skills">Mes compétences</a></li>
+        <li><a href="#projets">Mes projets</a></li>
+        <li><a href="#certifications">Mes diplômes</a></li>
+        <li><a href="#experiences">Mes expériences</a></li>
+        <li><a href="#contact-form">Me contacter</a></li>
+        </ul>
+        </nav>
+        <button id="openbtn">&#9779;</button>
+    </div>
+  </header>
+   
+  <!-- Hero Section -->
+  <section class="hero" id="hero">
+    <div class="hero-content">
+        <div id="identite">
+            <h1>Marie</h1>
+            <h1>Joséphine</h1>
+            <h1>Durand</h1>
+        </div>
+        <h3>Web Developer</h3>
+        <p>Creating beautiful and responsive websites that engage users and deliver results.</p>
+      <button class="btn-primary" id="btn-cv">Imprime mon CV</button>
+    </div>
+    <div class="hero-image">
+      <div class="puzzle">
+       
+        <div class="piece" ></div>
+        <div class="piece" ></div>
+        <div class="piece" ></div>
+        <div class="piece" ></div>
+        <div class="piece" ></div>
+        <div class="piece" ></div>
+        <div class="piece" ></div>
+        <div class="piece" ></div>
+        <div class="piece" ></div>
+      </div>
+    </div>
+  </section>
+ <section class="about" id="about-content">
+    <h2 >À propos de moi</h2>
+    <div class="about-content">
+      <div class="about-text">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem tempore voluptas, nobis sequi modi molestiae odio accusantium ut quas natus accusamus porro eaque. Dolor, odit molestias a iste recusandae adipisci?</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem tempore voluptas, nobis sequi modi molestiae odio accusantium ut quas natus accusamus porro eaque. Dolor, odit molestias a iste recusandae adipisci?</p>
+      
+      </div>
+    </div>
+
+
+
+ </section>
+  <section class="competences" id="skills">
+     <h2>Ce que je sais faire</h2>
+      <div class="skills" >
+        
+        <div class="skill-container">
+          <div class="skill">
+            <i class="fab fa-html5"></i>
+            <h3>HTML</h3>
+            <p>Créer la structure d'un site web en utilisant HTML.</p>
+          </div>
+          <div class="pile_entiere">
+            <div class="pile_chapeau"></div>
+            <div class="pile" data-percentage="90%">
+              <div class="pile_pourcentage" style="--fill-height: 90%;">HTML 90%</div>
+            </div>
+          </div>
+        </div>
+          
+        <div class="skill-container">
+          <div class="skill">
+            <i class="fab fa-css3"></i>
+            <h3>CSS</h3>
+            <p>Styliser le site web en utilisant CSS.</p>
+          </div>
+          <div class="pile_entiere">
+            <div class="pile_chapeau"></div>
+            <div class="pile" data-percentage="80%">
+                    <div class="pile_pourcentage" style="--fill-height: 80%;"> CSS 80%</div>
+            </div>
+          </div>
+        </div>
+
+
+
+
+
+        <div class="skill-container">
+          <div class="skill">
+            <i class="fa-brands fa-js"></i>
+            <h3>JavaScript</h3>
+            <p>Ajouter de l'interactivité au site web en utilisant JavaScript.</p>
+          </div>
+          <div class="pile_entiere">
+            <div class="pile_chapeau"></div>
+            <div class="pile" data-percentage="80%">
+                    <div class="pile_pourcentage" style="--fill-height: 50%;"> JS 50%</div>
+            </div>
+          </div>
+
+        </div>
+
+
+
+        <div class="skill-container">
+            <div class="skill">
+              <i class="fa-brands fa-php"></i>
+              <h3>PHP et Mysql</h3>
+              <p>Créer des sites web dynamiques en utilisant PHP et Mysql.</p>
+              
+            </div>
+            <div class="pile_entiere">
+              <div class="pile_chapeau"></div>
+              <div class="pile" data-percentage="80%">
+                      <div class="pile_pourcentage" style="--fill-height: 30%;"> PHP 30%</div>
+              </div>
+          </div>
+        </div>
+
+
+        <div class="skill-container">
+          <div class="skill">
+            <i class="fa-solid fa-brain"></i>
+            <h3>Intelligence Artificielle</h3>
+              <p>Utiliser l'intelligence artificielle .</p>
+          </div>
+          <div class="pile_entiere">
+            <div class="pile_chapeau"></div>
+            <div class="pile" data-percentage="80%">
+                    <div class="pile_pourcentage" style="--fill-height: 70%;"> IA 70%</div>
+            </div>
+        </div>
+        </div>
+        <div class="skill-container">
+            <div class="skill">
+              <i class="fa-brands fa-microsoft"></i>
+              <h3>Outils bureautiques</h3>
+              <p>Maîtriser les outils bureautiques</p>
+            
+            </div>
+                    
+            <div class="pile_entiere">
+              <div class="pile_chapeau"></div>
+              <div class="pile" data-percentage="80%">
+                <div class="pile_pourcentage" style="--fill-height: 90%;"> OFFICE 90%</div>
+              </div>
+          </div>
+       </div>
+   
+    </div>
+  </section>
+
+
+
+  <section class="projets" id="projets">
+
+        <h2>Mes réalisations</h2>
+         <div class="projet-ensemble">   
+            <div class="projet">
+              <div class="projet-image">
+                <img src="images/mon portfolio.png" alt="Projet 1">
+                <div class="popup">
+                  Site web pour une entreprise de vente de produits bio.
+                </div>
+              </div>
+              <div class="projet-content">
+                <h3>Site web 1</h3>
+              
+                <button class="btn-projet"><a href="#" target="_blank">Voir le projet</a></button>
+              </div>
+
+
+        </div>
+            <div class="projet">
+              <div class="projet-image">
+                <img src="images/mon portfolio.png" alt="Projet 1">
+                <div class="popup">
+                  Site web pour une entreprise de vente de produits bio.
+                </div>
+              </div>
+              <div class="projet-content">
+                <h3>Site web 2</h3>
+               
+                <button class="btn-projet">Voir le projet</button>
+              </div>
+            </div>
+
+            <div class="projet">
+              <div class="projet-image">
+                <img src="images/mon portfolio.png"alt="Projet 1">
+                <div class="popup">
+                  Site web pour une entreprise de vente de produits bio.
+                </div>
+              </div>
+              
+              <div class="projet-content">
+                <h3>Site web 3</h3>
+                
+                <button class="btn-projet">Voir le projet</button>
+              </div>
+            </div>
+            <div class="projet">
+              <div class="projet-image">
+                <img src="images/mon portfolio.png" alt="Projet 1">
+                <div class="popup">
+                  Site web pour une entreprise de vente de produits bio.
+                </div>
+              </div>
+              <div class="projet-content">
+                <h3>Site web 4</h3>
+                
+                <button class="btn-projet">Voir le projet</button>
+              </div>
+            </div>
+            <div class="projet">
+              <div class="projet-image">
+                <img src="images/mon portfolio.png" alt="Projet 1">
+                <div class="popup">
+                  Site web pour une entreprise de vente de produits bio.
+                </div>
+              </div>
+              <div class="projet-content">
+                <h3>Site web 5</h3>
+                
+                <button class="btn-projet">Voir le projet</button>
+              </div>
+            </div>
+            <div class="projet">
+              <div class="projet-image">
+                <img src="images/mon portfolio.png" alt="Projet 1">
+                <div class="popup">
+                  Site web pour une entreprise de vente de produits bio.
+                </div>
+              </div>
+              <div class="projet-content">
+                <h3> Site web 6</h3>
+               
+                <button class="btn-projet">Voir le projet</button>
+              </div>
+            </div>
+            <div class="projet">
+              <div class="projet-image">
+                <img src="images/mon portfolio.png" alt="Projet 1">
+                <div class="popup">
+                  Site web pour une entreprise de vente de produits bio.
+                </div>
+              </div>
+              <div class="projet-projet">
+                <h3>Site web 7</h3>
+               
+                <button class="btn-projet">Voir le projet</button>
+              </div>
+            </div>
+
+
+          </div>
+      
+  </section>
+  
+  <section class="certifications" id="certifications">
+    <h2>Mes certifications</h2>
+    <div class="carousel">
+      <div class="carousel-track">
+      <div class="carousel-item">
+        <i>&#x1F393;</i>
+        <h3>Baccalauréat scientifique</h3>
+        <p>Spécialité mathématiques</p>
+      </div>
+      <div class="carousel-item">
+        <i>&#x1F393;</i>
+        <h3>DEUG MIAS</h3>
+        <p>Mathématiques Informatiques et Applications aux Sciences</p>
+      </div>
+      <div class="carousel-item">
+        <i>&#x1F393;</i>
+        <h3>Licence</h3>
+        <p>Mathématiques fondamentales</p>
+      </div>
+
+      <div class="carousel-item">
+        <i>&#x1F4DC;</i>
+        <h3>Certification Free Code Camp</h3>
+        <p>Certification de sites web réactifs</p>
+      </div>
+      <div class="carousel-item">
+        <i>&#x1F4DC;</i>
+        <h3>Certification Free Code Camp</h3>
+        <p>Algorithmes et structures de données JavaScript</p>
+      </div>
+
+
+
+
+      </div>
+      <button class="carousel-btn prev-btn">‹</button>
+      <button class="carousel-btn next-btn">›</button>
+    </div>
+
+
+    
+  <section class="experiences" id="experiences">
+    <h2>Expérience professionnelle</h2>
+    <div class="experience-container">
+      <div class="experience-card">
+        <h3>Développeur Front-End</h3>
+        <p class="date">Janvier 2021 - Présent</p>
+        <p>Création d'interfaces web modernes et responsives avec HTML, CSS et JavaScript. Collaboration avec des équipes de design et de back-end.</p>
+      </div>
+      <div class="experience-card">
+        <h3>Assistant Administratif</h3>
+        <p class="date">Septembre 2017 - Décembre 2020</p>
+        <p>Gestion de données, planification des rendez-vous et support administratif pour une entreprise de services.</p>
+      </div>
+      <div class="experience-card">
+        <h3>Professeur de Langues</h3>
+        <p class="date">Mars 2015 - Août 2017</p>
+        <p>Enseignement de l'anglais à des étudiants, création de supports pédagogiques et gestion de cours interactifs.</p>
+      </div>
+    
+    <div class="experience-card">
+      <h3>Assistant Administratif</h3>
+      <p class="date">Septembre 2017 - Décembre 2020</p>
+      <p>Gestion de données, planification des rendez-vous et support administratif pour une entreprise de services.</p>
+    </div>
+    <div class="experience-card">
+      <h3>Professeur de Langues</h3>
+      <p class="date">Mars 2015 - Août 2017</p>
+      <p>Enseignement de l'anglais à des étudiants, création de supports pédagogiques et gestion de cours interactifs.</p>
+    </div>
+  </div>
+</div>
+
+
+   
+    
+  </section>
+  
+  <section class="contact" id="contact">
+    <h2>Me contacter</h2>
+   
+      <form action="mailto:your-email@example.com" method="post" enctype="text/plain" id="contact-form">
+        
+        <label for="nom">Nom</label>
+        <input type="text" id="nom" name="nom" required>
+        <label for="prenom">Prénom</label>
+        <input type="text" id="prenom" name="prenom" required>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+        <label for="message">Message</label>
+        <textarea id="message" name="message" required></textarea>
+
+        <button type="submit" >Envoyer</button>
+      </form>
+  
+  </section>
+  <footer>
+    
+      <p>&copy; 2025 Marie-Joséphine Durand</p>
+      <div class="social-icons">
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+        <a href="#"><i class="fab fa-github"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+
+      </div>
+  
+  </footer>
+</body>
+</html>
